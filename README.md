@@ -18,6 +18,7 @@ Ensure you have [Ollama](https://ollama.com) running locally, then install the P
 ```bash
 uv sync 
 ```
+--------------------------------------------------
 ```bash
 #if you do not have uv run this command(optional)
 pip install uv
