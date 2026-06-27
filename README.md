@@ -16,7 +16,11 @@ Tired of heavy local web UIs like Open WebUI eating your RAM? Meet **modelstream
 Ensure you have [Ollama](https://ollama.com) running locally, then install the Python dependencies:
 
 ```bash
-pip install ollama rich pyperclip
+uv sync 
+```
+```bash
+#if you do not have uv run this command(optional)
+pip install uv
 ```
 
 Clone this repository and run the script:
@@ -24,7 +28,5 @@ Clone this repository and run the script:
 ```bash
 git clone https://github.com
 cd modelstream
-python main.py
+python test.py
 ```
-
-

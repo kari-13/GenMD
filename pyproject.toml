@@ -1,0 +1,11 @@
+[project]
+name = "modelstream"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ollama>=0.6.2",
+    "pyperclip>=1.11.0",
+    "rich>=15.0.0",
+]
