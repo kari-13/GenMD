@@ -21,8 +21,8 @@ uv sync
 ```bash
 #if you do not have uv run this command(optional)
 pip install uv
-```
-
+```                                                
+---------------------------------------------------
 Clone this repository and run the script:
 
 ```bash
