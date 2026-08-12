@@ -1,7 +1,7 @@
 [project]
-name = "modelstream"
+name = "GenMD"
 version = "0.1.0"
-description = "lorem ipsum"
+description = "A tui for ollama"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
