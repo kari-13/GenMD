@@ -11,7 +11,7 @@ from rich.panel import Panel
 
 console = Console()
 
-animation = [".", "..", "..."]
+animation = ["",".", "..", "..."]
 
 
 def extract_and_copy_code(text: str):
@@ -139,6 +139,6 @@ if __name__ == "__main__":
             ask_ai(user_prompt)
             print("\n" + "─" * 60 + "\n")
 
-    except KeyboardInterrupt, EOFError:
+    except (KeyboardInterrupt, EOFError):
         console.print("\n\n[bold red]Session ended.[/bold red]")
         sys.exit(0)
