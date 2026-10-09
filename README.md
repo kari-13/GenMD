@@ -28,8 +28,8 @@ pip install uv
 Clone this repository and run the script:
 --
 ```bash
-git clone https://github.com
+git clone [https://github.com](https://github.com/kari-13/GenMD)
 cd GenMD
-python test.py
+python main.py
 ```
 --
