@@ -1,7 +1,7 @@
 import re
 import sys
 import time
-
+from errors import ensure_ollama_running
 import pyperclip
 from ollama import chat
 from rich.console import Console, Group
@@ -120,7 +120,7 @@ def ask_ai(prompt: str):
     )
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and ensure_ollama_running():
     console.print(
         "[bold green]Ollama Chat Initialized. Type 'quit' or 'bye' to exit.[/bold green]\n"
     )
